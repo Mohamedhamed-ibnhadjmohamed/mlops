@@ -1,3 +1,5 @@
 # MLflow
 mlruns/
 mlflow.db
+# Docker (modèle exporté, régénérable)
+model/
