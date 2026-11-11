@@ -18,3 +18,5 @@ EXPOSE 8000
 # --host 0.0.0.0 : écouter sur toutes les adresses du conteneur
 # (avec 127.0.0.1, l'API serait injoignable depuis l'extérieur)
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+
